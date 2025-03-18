@@ -1,0 +1,21 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+	<class name="com.sterling.dto.Announcement" table="Announcements" schema="student_portal">
+	
+	<id name="aid">
+	<generator class="increment"></generator>
+	</id>
+	
+	<property name="title"></property>
+	<property name="content"></property>
+
+	<many-to-one name="announcerId" class="com.sterling.dto.Student">
+    <column name="id"></column>
+    
+    </many-to-one>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,18 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+    <hibernate-mapping>
+    <class name="com.sterling.dto.Slider" table="Silder" schema="student_portal">
+    
+    <id name="slideId">
+    <generator class="increment"></generator>
+    </id>
+    
+    <property name="slideHeading"></property>
+    <property name="slideContent" length="5000"></property>
+    <property name="slideImageName"></property>
+    
+    
+    </class>
+    </hibernate-mapping>
