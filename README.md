@@ -6,18 +6,18 @@ cutting-edge technologies such as Java, Java 2 Platform, Enterprise Edition
 integrated with an Email API, Hibernate, Maven, and all hosted on the 
 Apache Tomcat server.
 
-<b>For Students:</b> The Student Management System offers a user-friendly 
+<h1>For Students:</b> The Student Management System offers a user-friendly 
 interface where students can effortlessly download study materials such as 
 notes and reference documents.  
  
-<b>For Administrators:<\b> The system empowers administrators with tools to 
+<h1>For Administrators:<\b> The system empowers administrators with tools to 
 easily upload and manage study resources. With just a few clicks, new 
 materials can be added, updated and more.
 
 
- # There are following feature of Student Protal
+ #There are following feature of Student Protal
  
-<b>1. Easily download study material:</b> One significant advantage of 
+<h1>1. Easily download study material:</b> One significant advantage of 
 easily downloading study material is the accessibility it provides. 
 Students can access a wide range of resources at their 
 convenience, which allows for flexible learning. This means they 
@@ -26,22 +26,22 @@ library hours or the availability of physical books. Downloadable
 study materials often come in various formats, such as PDFs. 
  
  
-<b>2.Easily upload study material:</b> One of the key advantages of 
+<h1>2.Easily upload study material:</b> One of the key advantages of 
 allowing administrators to easily upload study material is the 
 streamlined distribution of educational content. 
  
  
-<b>3. Home Webpage Management:</b> The system features an intuitive 
+<h1>3. Home Webpage Management:</b> The system features an intuitive 
 dashboard that allows IT administrators to easily update the home 
 webpage. This includes the ability to post announcements, 
 notices, and important updates with just a few clicks. 
  
  
-<b>4. Simplified Notice Updates: </b>The system boasts a user-friendly interface that allows IT administrators to update notices and announcements on the home webpage effortlessly. This ensures that all students and faculty are kept up-to-date with the latest information.
+<h1>4. Simplified Notice Updates: </b>The system boasts a user-friendly interface that allows IT administrators to update notices and announcements on the home webpage effortlessly. This ensures that all students and faculty are kept up-to-date with the latest information.
 
 #Literature review meaning 
  
-<b>Abstract:</b> The development of personalized Student Management Systems 
+<h1>Abstract:</b> The development of personalized Student Management Systems 
 (SMS) represents a significant leap forward in educational technology. This 
 literature review explores the current landscape of SMS, focusing on the 
 technological advancements, user-centric features, and the potential for 
