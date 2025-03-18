@@ -1,0 +1,25 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+    
+    <hibernate-mapping>
+    <class name="com.sterling.dto.Student" table="Student" schema="student_portal">
+    
+    <id name="id">
+    <generator class="increment"></generator>
+    </id>
+    
+    <property name="name"></property>
+    <property name="email"></property>
+    <property name="password"></property>
+    <property name="mobileNumber"></property>
+    <property name="address"></property>
+    <property name="type"></property>
+    
+	
+	
+
+    
+    </class>
+    </hibernate-mapping>

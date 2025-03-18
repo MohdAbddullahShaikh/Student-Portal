@@ -1,0 +1,18 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+	<class name="com.sterling.dto.Course" table="courses" schema="student_portal">
+	
+	<id name="id"> 
+	<generator class="increment"></generator>
+	</id>
+
+	<property name="courseName"></property>
+	<property name="courseDetails"></property>
+	<property name="coursePrice"></property>
+	
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+
+.custom-bg{
+	background:#CECECE!important;
+	border: none!important;
+}
+
+.cards:hover{
+	cursor: pointer!important;
+	background:#f6eeee!important;
+}
+

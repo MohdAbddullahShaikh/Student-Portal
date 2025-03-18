@@ -1,0 +1,22 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+    <hibernate-mapping>
+    <class name="com.sterling.dto.Post" table="Post" schema="student_portal">
+    	<id name="pid">
+    	<generator class="increment"></generator>
+    	</id>
+    	
+    	<property name="postTitle"></property>
+    	<property name="postContent"></property>
+    	<property name="postPhoto"></property>
+    	<property name="photoName"></property>
+    	
+    	<many-to-one name="poster" class="com.sterling.dto.Student">
+    <column name="id"></column>
+    
+    </many-to-one>
+    
+    </class>
+    </hibernate-mapping>
